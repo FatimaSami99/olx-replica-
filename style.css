@@ -1,0 +1,337 @@
+        /* WHOLE-BODY */
+body{
+   
+    display: block;
+   
+    
+}
+.h1{
+    font-weight: bold;
+}
+.header{
+   
+    position: sticky;
+    background-color: #F8F9F9 ;
+    flex-wrap: wrap;
+   
+}
+
+.first_row{
+    display: flex;
+    width:700px;
+    height: 60px; 
+    padding:5px 5px 1px 5px;
+    margin: 5px 5px 1px 5px;
+    
+}
+.first_row .sub{
+     font-weight: bolder;
+     font-family:Georgia, 'Times New Roman', Times, serif;
+     font-size: 1.0rem;
+     color: #002f34;
+     display: flex; 
+     justify-content:space-around; 
+     align-content: space-between; 
+     align-items:flex-start;
+     cursor: pointer;
+}
+.second_row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    flex-wrap: wrap;
+    padding: 10px 1px 2px 30px;
+   
+}
+#country{
+    margin: 5px;
+    padding-left: 12px;
+    width: 250px;
+    height: 50px;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    border-radius:5px;
+    border: solid 1px;  
+}
+.search{
+    width: 650px;
+    height: 50px;
+    font-size: 15px;
+    border-radius:5px;
+    border: solid 1px;
+    padding-left: 12px;
+    margin: 5px;
+}
+.search-bar{
+    display: inline-block;
+}
+.login,.sell,.search-bar,.country-list{
+    padding: 10px;
+}
+
+.sell-btn{
+    width: 100px;
+    height: 44px;
+    border: none;
+    border-radius:50px ;
+    border: double seagreen;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: cadetblue;
+    cursor: pointer;
+}
+.loginlink{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(21, 63, 55);
+    text-decoration: underline;
+    padding-top: 15px;
+   
+}
+.olx-img{
+    display: flex;
+    border: 1px honeydew; 
+    justify-content: flex-start;
+    overflow: hidden;
+ }
+.img1,.img2{
+    width: 800px;
+    height: 180px;
+}
+
+.nav{
+    
+    background:rgb(255, 255, 255);
+    padding-left:80px; 
+    
+}
+.nav a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 7px 25px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:18px;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+
+  }
+.dropbtn{
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color:rgb(255, 255, 255); ;
+    border: none;
+    width: 180px;
+    height: 48px;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f5f5f5;
+    width: 80%;
+    height: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    float: none;
+    color: rgb(22, 18, 18);
+    padding: 10px 10px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: left;
+  }
+  .dropdown-content a:hover {
+    background-color: rgba(37, 151, 172, 0.829);
+    
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+.car{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.malls{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;   
+}
+.buildings{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;   
+}
+.logo{
+    width: 50px;
+    height: 40px; 
+    cursor: pointer;
+}
+  /* pesudo-classes*/
+img.car:hover{
+    color: rgb(59, 154, 243);
+}
+.malls:hover{
+    color: rgb(59, 154, 243);
+}
+.nav a:hover {
+    color: rgb(23, 75, 110);
+}
+.main{
+    margin: 20px 20px 20px 20px;
+    color: rgb(39, 37, 37);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    cursor: text;
+}
+.product{
+    width:300px;
+    height:290px;
+    z-index: 1;
+    
+}
+#love{
+    width:28px;
+    height:25px;
+    float: right;
+    padding-right: 10px;
+    padding-top: 17px;
+    cursor: pointer;
+}
+p{
+    font-size:27px;
+    font-weight: bolder;
+    text-align:center;
+    padding-left: 3px;
+}
+article{
+    font-size: 20px;
+    text-align: center; 
+}
+.pictures{
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 15px 20px 15px 18px;
+}
+.prod1,.prod2,.prod3,.prod4 ,.prod5,
+.prod6,.prod7 ,.prod8 ,.prod9 ,.prod10 ,
+.prod11 ,.prod12,.prod13 ,.prod14 ,.prod15 ,
+.prod16 ,.prod17 ,.prod18,.prod19,.prod20{
+    
+    width:min-content;
+    border: rgb(85, 85, 83) solid;
+    
+}
+.text1,.text2,.text3{
+    z-index: 3;
+}
+#time{
+    color: rgb(90, 90, 90,0.7);
+    text-align: center;
+    font-weight:100;
+    font-size: 20px;
+}
+#price-tag{
+   font-size: 22px;
+  
+}
+.load-button{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 80px;
+}
+.load-btn{
+    width: 130px;
+    height: 60px;
+    border-radius: round 2px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor:pointer;
+}
+.div-a{
+    display: flex;
+    justify-content: flex-start;
+    z-index: 2;
+}
+.div-b{
+    background-color: rgb(212, 206, 206,0.1);
+    display: inline-block;
+    width: 100%;
+    height:132px;
+}
+.seprator{
+    background-color: rgb(119, 114, 114);
+}
+.applestore, .playstore,.appgall{
+    width: 150px;
+    height: 60px;
+    cursor: pointer;
+    border-radius:round 4px;
+}
+.text-1{
+   
+    font-size: 28px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.text-2{
+    font-size: 22px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.text-3{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+.f-option{
+    display: flex;
+    justify-content:space-evenly;
+    background-color: #edf1f1 ;
+    z-index: 3;
+    flex-wrap: wrap;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(108, 110, 110);
+}
+.a,.b,.c,.d{
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 25px;
+    color: rgba(73, 66, 66, 0.8);
+}
+.a1,.a2,.a3,.a4,.b1,.b2,.b3,.b4,.c1,.c2,.c3,.c4,.d1,.d2,.d3,.d4{
+    font-size: 16px;
+    list-style-type: none; 
+}
+@media screen and (min-width:1276px){
+    .nav{display: flex; flex-wrap: wrap;}
+}
+@media screen and (max-width:1000px) {
+    .download-stores{visibility: hidden;}
+    .div-b{width: min-content;}
+}
+@media screen and (max-width:680px){
+    .dropdown-content{width: min-content;}
+    .search{width: 450px;}
+    .second_row{display:flex; align-items: center; justify-content: space-around;}
+
+}
